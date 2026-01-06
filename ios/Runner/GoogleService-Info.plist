@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1071319888527-62kdhejjent9raao6sor224g4vm245s2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1071319888527-62kdhejjent9raao6sor224g4vm245s2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1071319888527-16gqmfovmcn1cs9v7a3gqubkp0dc5kmg.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcWGMKlVHcrDcUemjrNVj5Airww2HjXw8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1071319888527</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vistareels.app</string>
+	<key>PROJECT_ID</key>
+	<string>vistaflicks</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vistaflicks.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1071319888527:ios:9e5b113b31586dc5d3f6fa</string>
+</dict>
+</plist>

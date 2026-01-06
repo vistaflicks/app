@@ -1,0 +1,532 @@
+.
+├── README.md
+├── analysis_options.yaml
+├── android
+│   ├── app
+│   │   ├── build.gradle
+│   │   └── src
+│   │       ├── debug
+│   │       │   └── AndroidManifest.xml
+│   │       ├── main
+│   │       │   ├── AndroidManifest.xml
+│   │       │   ├── java
+│   │       │   │   └── io
+│   │       │   │       └── flutter
+│   │       │   │           └── plugins
+│   │       │   │               └── GeneratedPluginRegistrant.java
+│   │       │   ├── kotlin
+│   │       │   │   └── com
+│   │       │   │       └── example
+│   │       │   │           └── vista_flicks
+│   │       │   │               └── MainActivity.kt
+│   │       │   └── res
+│   │       │       ├── drawable
+│   │       │       │   └── launch_background.xml
+│   │       │       ├── drawable-v21
+│   │       │       │   └── launch_background.xml
+│   │       │       ├── mipmap-hdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-mdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-xhdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-xxhdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-xxxhdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── values
+│   │       │       │   └── styles.xml
+│   │       │       └── values-night
+│   │       │           └── styles.xml
+│   │       └── profile
+│   │           └── AndroidManifest.xml
+│   ├── build.gradle
+│   ├── gradle
+│   │   └── wrapper
+│   │       ├── gradle-wrapper.jar
+│   │       └── gradle-wrapper.properties
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   ├── local.properties
+│   └── settings.gradle
+├── assets
+│   ├── background
+│   │   ├── Frame_1.png
+│   │   ├── VISTA IMAGE.gif
+│   │   ├── chat_bot .gif
+│   │   ├── loading.gif
+│   │   └── splash_image.png
+│   ├── fonts
+│   │   └── intter
+│   │       ├── Inter_18pt-Black.ttf
+│   │       ├── Inter_18pt-Bold.ttf
+│   │       ├── Inter_18pt-ExtraBold.ttf
+│   │       ├── Inter_18pt-ExtraLight.ttf
+│   │       ├── Inter_18pt-Light.ttf
+│   │       ├── Inter_18pt-Medium.ttf
+│   │       ├── Inter_18pt-Regular.ttf
+│   │       ├── Inter_18pt-SemiBold.ttf
+│   │       ├── Inter_18pt-Thin.ttf
+│   │       ├── Inter_24pt-Black.ttf
+│   │       ├── Inter_24pt-Bold.ttf
+│   │       ├── Inter_24pt-ExtraBold.ttf
+│   │       ├── Inter_24pt-ExtraLight.ttf
+│   │       ├── Inter_24pt-Light.ttf
+│   │       ├── Inter_24pt-Medium.ttf
+│   │       ├── Inter_24pt-Regular.ttf
+│   │       ├── Inter_24pt-SemiBold.ttf
+│   │       ├── Inter_24pt-Thin.ttf
+│   │       ├── Inter_28pt-Black.ttf
+│   │       ├── Inter_28pt-Bold.ttf
+│   │       ├── Inter_28pt-ExtraBold.ttf
+│   │       ├── Inter_28pt-ExtraLight.ttf
+│   │       ├── Inter_28pt-Light.ttf
+│   │       ├── Inter_28pt-Medium.ttf
+│   │       ├── Inter_28pt-Regular.ttf
+│   │       ├── Inter_28pt-SemiBold.ttf
+│   │       └── Inter_28pt-Thin.ttf
+│   ├── icons
+│   │   ├── fi_281764.svg
+│   │   ├── fi_5968764.svg
+│   │   ├── fi_747.svg
+│   │   ├── tabler-icon-arrow-down-left.svg
+│   │   ├── tabler-icon-arrow-left.svg
+│   │   ├── tabler-icon-bell.svg
+│   │   ├── tabler-icon-bookmark-filled.svg
+│   │   ├── tabler-icon-bookmark.svg
+│   │   ├── tabler-icon-calendar-event.svg
+│   │   ├── tabler-icon-check.svg
+│   │   ├── tabler-icon-chevron-down.svg
+│   │   ├── tabler-icon-circle-check.svg
+│   │   ├── tabler-icon-clock-hour-7.svg
+│   │   ├── tabler-icon-crop-1-1.svg
+│   │   ├── tabler-icon-device-mobile.svg
+│   │   ├── tabler-icon-dots-vertical.svg
+│   │   ├── tabler-icon-filter.svg
+│   │   ├── tabler-icon-flicks.svg
+│   │   ├── tabler-icon-heart-filled.svg
+│   │   ├── tabler-icon-heart.svg
+│   │   ├── tabler-icon-history.svg
+│   │   ├── tabler-icon-home.svg
+│   │   ├── tabler-icon-info-circle.svg
+│   │   ├── tabler-icon-mail-opened-filled.svg
+│   │   ├── tabler-icon-message-2.svg
+│   │   ├── tabler-icon-messages.svg
+│   │   ├── tabler-icon-microphone.svg
+│   │   ├── tabler-icon-player-play-filled.svg
+│   │   ├── tabler-icon-playstation-triangle.svg
+│   │   ├── tabler-icon-qrcode.svg
+│   │   ├── tabler-icon-search.svg
+│   │   ├── tabler-icon-send.svg
+│   │   ├── tabler-icon-share.svg
+│   │   ├── tabler-icon-square-check-filled.svg
+│   │   ├── tabler-icon-square-plus.svg
+│   │   ├── tabler-icon-star-filled.svg
+│   │   ├── tabler-icon-user-circle.svg
+│   │   ├── tabler-icon-user-plus.svg
+│   │   ├── tabler-icon-users-group.svg
+│   │   ├── tabler-icon-x-small.svg
+│   │   └── tabler-icon-x.svg
+│   ├── images
+│   │   ├── 1.png
+│   │   ├── 10.png
+│   │   ├── 2.png
+│   │   ├── 3.png
+│   │   ├── 4.png
+│   │   ├── 5.png
+│   │   ├── 6.png
+│   │   ├── 7.png
+│   │   ├── 8.png
+│   │   ├── 9.png
+│   │   ├── AV01.png
+│   │   ├── AV02.png
+│   │   ├── AV03.png
+│   │   ├── AV04.png
+│   │   ├── AV05.png
+│   │   ├── AV06.png
+│   │   ├── AV07.png
+│   │   ├── AV08.png
+│   │   ├── AV09.png
+│   │   ├── AV10.png
+│   │   ├── AV11.png
+│   │   ├── AV12.png
+│   │   ├── AV13.png
+│   │   ├── AV14.png
+│   │   ├── AV15.png
+│   │   ├── AV16.png
+│   │   ├── BG.png
+│   │   ├── Frame 1195.png
+│   │   ├── M01.png
+│   │   ├── M02.png
+│   │   ├── M03.png
+│   │   ├── M04.png
+│   │   ├── M05.png
+│   │   ├── M06.png
+│   │   ├── M07.png
+│   │   ├── M08.png
+│   │   ├── M09.png
+│   │   ├── M10.png
+│   │   ├── M11.png
+│   │   ├── M12.png
+│   │   ├── M13.png
+│   │   ├── M14.png
+│   │   ├── M15.png
+│   │   ├── M16.png
+│   │   ├── M17.png
+│   │   ├── M18.png
+│   │   ├── M19.png
+│   │   ├── M20.png
+│   │   ├── M21.png
+│   │   ├── M22.png
+│   │   ├── M23.png
+│   │   ├── M24.png
+│   │   ├── aha.png
+│   │   ├── alt_balaji.png
+│   │   ├── banner.png
+│   │   ├── bg_ovel.svg
+│   │   ├── explore_banner.png
+│   │   ├── gradient bg.png
+│   │   ├── gradient_Bg_2.svg
+│   │   ├── hotstar.png
+│   │   ├── image-9.png
+│   │   ├── jio_tv.png
+│   │   ├── liongate_play.png
+│   │   ├── mx_player.png
+│   │   ├── netflix.png
+│   │   ├── p1.png
+│   │   ├── p10.png
+│   │   ├── p11.png
+│   │   ├── p12.png
+│   │   ├── p13.png
+│   │   ├── p14.png
+│   │   ├── p15.png
+│   │   ├── p16.png
+│   │   ├── p17.png
+│   │   ├── p18.png
+│   │   ├── p19.png
+│   │   ├── p2.png
+│   │   ├── p20.png
+│   │   ├── p21.png
+│   │   ├── p22.png
+│   │   ├── p3.png
+│   │   ├── p4.png
+│   │   ├── p5.png
+│   │   ├── p6.png
+│   │   ├── p7.png
+│   │   ├── p8.png
+│   │   ├── p9.png
+│   │   ├── plex.png
+│   │   ├── prime_video.png
+│   │   ├── profile_img.png
+│   │   ├── qr-code.png
+│   │   ├── qucode.svg
+│   │   ├── shemaroo.png
+│   │   ├── sony_liv.png
+│   │   ├── tata_binge.png
+│   │   ├── ullu.png
+│   │   ├── vista_flicks_splash_logo.png
+│   │   └── zee5.png
+│   ├── json
+│   │   ├── movies.json
+│   │   └── recent_search.json
+│   └── lottie
+│       ├── Animation - 1737368859751.json
+│       ├── bg_slider.json
+│       └── data.json
+├── devtools_options.yaml
+├── ios
+│   ├── Flutter
+│   │   ├── AppFrameworkInfo.plist
+│   │   ├── Debug.xcconfig
+│   │   ├── Generated.xcconfig
+│   │   ├── Release.xcconfig
+│   │   └── flutter_export_environment.sh
+│   ├── Runner
+│   │   ├── AppDelegate.swift
+│   │   ├── Assets.xcassets
+│   │   │   ├── AppIcon.appiconset
+│   │   │   │   ├── Contents.json
+│   │   │   │   ├── Icon-App-1024x1024@1x.png
+│   │   │   │   ├── Icon-App-20x20@1x.png
+│   │   │   │   ├── Icon-App-20x20@2x.png
+│   │   │   │   ├── Icon-App-20x20@3x.png
+│   │   │   │   ├── Icon-App-29x29@1x.png
+│   │   │   │   ├── Icon-App-29x29@2x.png
+│   │   │   │   ├── Icon-App-29x29@3x.png
+│   │   │   │   ├── Icon-App-40x40@1x.png
+│   │   │   │   ├── Icon-App-40x40@2x.png
+│   │   │   │   ├── Icon-App-40x40@3x.png
+│   │   │   │   ├── Icon-App-60x60@2x.png
+│   │   │   │   ├── Icon-App-60x60@3x.png
+│   │   │   │   ├── Icon-App-76x76@1x.png
+│   │   │   │   ├── Icon-App-76x76@2x.png
+│   │   │   │   └── Icon-App-83.5x83.5@2x.png
+│   │   │   └── LaunchImage.imageset
+│   │   │       ├── Contents.json
+│   │   │       ├── LaunchImage.png
+│   │   │       ├── LaunchImage@2x.png
+│   │   │       ├── LaunchImage@3x.png
+│   │   │       └── README.md
+│   │   ├── Base.lproj
+│   │   │   ├── LaunchScreen.storyboard
+│   │   │   └── Main.storyboard
+│   │   ├── GeneratedPluginRegistrant.h
+│   │   ├── GeneratedPluginRegistrant.m
+│   │   ├── Info.plist
+│   │   └── Runner-Bridging-Header.h
+│   ├── Runner.xcodeproj
+│   │   ├── project.pbxproj
+│   │   ├── project.xcworkspace
+│   │   │   ├── contents.xcworkspacedata
+│   │   │   └── xcshareddata
+│   │   │       ├── IDEWorkspaceChecks.plist
+│   │   │       └── WorkspaceSettings.xcsettings
+│   │   └── xcshareddata
+│   │       └── xcschemes
+│   │           └── Runner.xcscheme
+│   ├── Runner.xcworkspace
+│   │   ├── contents.xcworkspacedata
+│   │   └── xcshareddata
+│   │       ├── IDEWorkspaceChecks.plist
+│   │       └── WorkspaceSettings.xcsettings
+│   └── RunnerTests
+│       └── RunnerTests.swift
+├── lib
+│   ├── bindings
+│   │   └── initial_binding.dart
+│   ├── core
+│   │   ├── utils
+│   │   │   ├── build_context.dart
+│   │   │   ├── config.dart
+│   │   │   └── url_launchers.dart
+│   │   ├── values
+│   │   │   ├── app_colours.dart
+│   │   │   ├── size_constant.dart
+│   │   │   ├── strings.dart
+│   │   │   ├── text_styles
+│   │   │   │   ├── app_textstyles.dart
+│   │   │   │   └── base_textstyle.dart
+│   │   │   └── validator.dart
+│   │   └── widgets
+│   │       ├── common_bg_container.dart
+│   │       ├── common_image_view.dart
+│   │       ├── common_poster_list.dart
+│   │       ├── custom_button.dart
+│   │       ├── custom_text_form_field.dart
+│   │       └── my_regular_text.dart
+│   ├── gen
+│   │   ├── assets.gen.dart
+│   │   └── fonts.gen.dart
+│   ├── main.dart
+│   ├── pages
+│   │   ├── auth
+│   │   │   ├── initial_watch_preferences
+│   │   │   │   ├── initial_watch_preferences_controller.dart
+│   │   │   │   ├── initial_watch_preferences_model.dart
+│   │   │   │   ├── initial_watch_preferences_view.dart
+│   │   │   │   └── widget
+│   │   │   │       ├── chat_bubble.dart
+│   │   │   │       └── chat_screen.dart
+│   │   │   ├── on_bording
+│   │   │   │   ├── on_bording_controller.dart
+│   │   │   │   ├── on_bording_model.dart
+│   │   │   │   ├── on_bording_view.dart
+│   │   │   │   └── widget
+│   │   │   │       ├── continue_with_widget.dart
+│   │   │   │       └── sent_buttons_widget.dart
+│   │   │   ├── otp_verify
+│   │   │   │   ├── otp_verify_model.dart
+│   │   │   │   ├── otp_verify_page.dart
+│   │   │   │   └── widget
+│   │   │   │       ├── otp_verify_button_widget.dart
+│   │   │   │       ├── otp_verify_pin_widget.dart
+│   │   │   │       └── verify_welcome_widget.dart
+│   │   │   └── register_form
+│   │   │       ├── register_form_controller.dart
+│   │   │       ├── register_form_model.dart
+│   │   │       ├── register_form_page.dart
+│   │   │       └── widget
+│   │   │           ├── register_form_widget.dart
+│   │   │           └── welcom_to_vista_widget.dart
+│   │   ├── blank
+│   │   │   ├── blank_controller.dart
+│   │   │   ├── blank_page.dart
+│   │   │   └── widget
+│   │   ├── main
+│   │   │   ├── account_and_pref
+│   │   │   │   ├── account_and_pref_controller.dart
+│   │   │   │   ├── account_and_pref_page.dart
+│   │   │   │   └── update_profile
+│   │   │   │       ├── update_profile.dart
+│   │   │   │       ├── update_profile_controller.dart
+│   │   │   │       └── widget
+│   │   │   │           ├── account_txt_widget.dart
+│   │   │   │           ├── common_menu_tile_widget.dart
+│   │   │   │           └── user_info_tile_widget.dart
+│   │   │   ├── bookmark
+│   │   │   │   ├── bookmark_controller.dart
+│   │   │   │   ├── bookmark_page.dart
+│   │   │   │   ├── see_all_bookmarks.dart
+│   │   │   │   └── widget
+│   │   │   │       ├── bookmark_banner_widget.dart
+│   │   │   │       ├── bookmark_search_widget.dart
+│   │   │   │       ├── see_all_and_bookmarks_widget.dart
+│   │   │   │       └── top_bookmark_txt_widget.dart
+│   │   │   ├── chatbot
+│   │   │   │   └── chat_bot_page.dart
+│   │   │   ├── explore
+│   │   │   │   ├── explore_controller.dart
+│   │   │   │   ├── explore_model.dart
+│   │   │   │   ├── explore_page.dart
+│   │   │   │   ├── search_in_explore
+│   │   │   │   │   ├── Model
+│   │   │   │   │   │   ├── movies_and_series_model.dart
+│   │   │   │   │   │   └── recent_seatch_model.dart
+│   │   │   │   │   ├── search_in_explore_page.dart
+│   │   │   │   │   └── widget
+│   │   │   │   │       ├── common_tab_view.dart
+│   │   │   │   │       └── search_result_tabbar.dart
+│   │   │   │   └── widget
+│   │   │   │       └── trending_on_vista_flicks_widget.dart
+│   │   │   └── inbox
+│   │   │       ├── create_group
+│   │   │       │   ├── create_group_page.dart
+│   │   │       │   ├── invite_friends_page.dart
+│   │   │       │   └── widget
+│   │   │       │       ├── creat_group_button_widget.dart
+│   │   │       │       ├── create_new_group_txt_widget.dart
+│   │   │       │       ├── group_naem_field_widget.dart
+│   │   │       │       └── invite_check_button_widget.dart
+│   │   │       ├── inbox_home
+│   │   │       │   ├── inbox_home_controller.dart
+│   │   │       │   ├── inbox_home_page.dart
+│   │   │       │   └── widget
+│   │   │       │       ├── group_list_widget.dart
+│   │   │       │       └── inbox_top_appbar_widget.dart
+│   │   │       ├── search_group
+│   │   │       │   └── search_group_page.dart
+│   │   │       ├── single_group
+│   │   │       │   ├── group_info
+│   │   │       │   │   ├── group_info_page.dart
+│   │   │       │   │   ├── invite_friends_page.dart
+│   │   │       │   │   └── widget
+│   │   │       │   │       └── group_infob_bottom_invite_frd_widget.dart
+│   │   │       │   ├── single_group_controller.dart
+│   │   │       │   ├── single_group_page.dart
+│   │   │       │   └── widget
+│   │   │       │       ├── bottom_message_sending_widget.dart
+│   │   │       │       └── group_chat_bubble.dart
+│   │   │       └── widget
+│   │   │           └── qr_scanner_screen.dart
+│   │   └── splash
+│   │       ├── splash_home
+│   │       │   ├── splash_home_controller.dart
+│   │       │   ├── splash_home_page.dart
+│   │       │   └── widget
+│   │       │       ├── login_with_button_widget.dart
+│   │       │       ├── social_button_widget.dart
+│   │       │       ├── social_login_button_widget.dart
+│   │       │       ├── terms_and_condition_txt_widget.dart
+│   │       │       └── welcome_txt_widget.dart
+│   │       └── splash_view
+│   │           ├── splash_view_controller.dart
+│   │           ├── splash_view_model.dart
+│   │           └── splash_view_page.dart
+│   └── routes
+│       ├── app_pages.dart
+│       └── app_routes.dart
+├── linux
+│   ├── CMakeLists.txt
+│   ├── flutter
+│   │   ├── CMakeLists.txt
+│   │   ├── ephemeral
+│   │   ├── generated_plugin_registrant.cc
+│   │   ├── generated_plugin_registrant.h
+│   │   └── generated_plugins.cmake
+│   ├── main.cc
+│   ├── my_application.cc
+│   └── my_application.h
+├── macos
+│   ├── Flutter
+│   │   ├── Flutter-Debug.xcconfig
+│   │   ├── Flutter-Release.xcconfig
+│   │   ├── GeneratedPluginRegistrant.swift
+│   │   └── ephemeral
+│   │       ├── Flutter-Generated.xcconfig
+│   │       └── flutter_export_environment.sh
+│   ├── Runner
+│   │   ├── AppDelegate.swift
+│   │   ├── Assets.xcassets
+│   │   │   └── AppIcon.appiconset
+│   │   │       ├── Contents.json
+│   │   │       ├── app_icon_1024.png
+│   │   │       ├── app_icon_128.png
+│   │   │       ├── app_icon_16.png
+│   │   │       ├── app_icon_256.png
+│   │   │       ├── app_icon_32.png
+│   │   │       ├── app_icon_512.png
+│   │   │       └── app_icon_64.png
+│   │   ├── Base.lproj
+│   │   │   └── MainMenu.xib
+│   │   ├── Configs
+│   │   │   ├── AppInfo.xcconfig
+│   │   │   ├── Debug.xcconfig
+│   │   │   ├── Release.xcconfig
+│   │   │   └── Warnings.xcconfig
+│   │   ├── DebugProfile.entitlements
+│   │   ├── Info.plist
+│   │   ├── MainFlutterWindow.swift
+│   │   └── Release.entitlements
+│   ├── Runner.xcodeproj
+│   │   ├── project.pbxproj
+│   │   ├── project.xcworkspace
+│   │   │   └── xcshareddata
+│   │   │       └── IDEWorkspaceChecks.plist
+│   │   └── xcshareddata
+│   │       └── xcschemes
+│   │           └── Runner.xcscheme
+│   ├── Runner.xcworkspace
+│   │   ├── contents.xcworkspacedata
+│   │   └── xcshareddata
+│   │       └── IDEWorkspaceChecks.plist
+│   └── RunnerTests
+│       └── RunnerTests.swift
+├── project_structure.txt
+├── pubspec.lock
+├── pubspec.yaml
+├── test
+│   └── widget_test.dart
+├── web
+│   ├── favicon.png
+│   ├── icons
+│   │   ├── Icon-192.png
+│   │   ├── Icon-512.png
+│   │   ├── Icon-maskable-192.png
+│   │   └── Icon-maskable-512.png
+│   ├── index.html
+│   └── manifest.json
+└── windows
+    ├── CMakeLists.txt
+    ├── flutter
+    │   ├── CMakeLists.txt
+    │   ├── ephemeral
+    │   ├── generated_plugin_registrant.cc
+    │   ├── generated_plugin_registrant.h
+    │   └── generated_plugins.cmake
+    └── runner
+        ├── CMakeLists.txt
+        ├── Runner.rc
+        ├── flutter_window.cpp
+        ├── flutter_window.h
+        ├── main.cpp
+        ├── resource.h
+        ├── resources
+        │   └── app_icon.ico
+        ├── runner.exe.manifest
+        ├── utils.cpp
+        ├── utils.h
+        ├── win32_window.cpp
+        └── win32_window.h
+
+125 directories, 405 files

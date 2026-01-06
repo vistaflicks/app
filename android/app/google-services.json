@@ -1,0 +1,146 @@
+{
+  "project_info": {
+    "project_number": "1071319888527",
+    "project_id": "vistaflicks",
+    "storage_bucket": "vistaflicks.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071319888527:android:3b0675fd92945596d3f6fa",
+        "android_client_info": {
+          "package_name": "com.vistaflicks.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071319888527-16gqmfovmcn1cs9v7a3gqubkp0dc5kmg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vistaflicks.app",
+            "certificate_hash": "82b4bef1eeb073af9583896141d4e2d68b0039cf"
+          }
+        },
+        {
+          "client_id": "1071319888527-6q0cp1up0pnmd44fvurotkigclbm001r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vistaflicks.app",
+            "certificate_hash": "6598614b1d250d47f593f6ee9c3d115b1d7291a5"
+          }
+        },
+        {
+          "client_id": "1071319888527-r2g1lbk9uvu34g0dhr3uqvdmdq7qhrvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vistaflicks.app",
+            "certificate_hash": "ca27ca1b01097576e6067abc2829e2329d1f2576"
+          }
+        },
+        {
+          "client_id": "1071319888527-tf6v331m8smi487bu3pa5iv2ucafimfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vistaflicks.app",
+            "certificate_hash": "82d426460121d2ceb5a5f8c5cd0f2db38b8dc3f1"
+          }
+        },
+        {
+          "client_id": "1071319888527-pqb0djaponmlcp9najve184603i60cc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr2bf0BVmTshtaw2nWqdopFspQS-n8o4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071319888527-pqb0djaponmlcp9najve184603i60cc9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1071319888527-62kdhejjent9raao6sor224g4vm245s2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vistareels.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071319888527:android:09c9f9dbcf51ee0dd3f6fa",
+        "android_client_info": {
+          "package_name": "com.vistareels.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071319888527-k4af02rus9feb811f6c4ofru86eoe14b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vistareels.app",
+            "certificate_hash": "82b4bef1eeb073af9583896141d4e2d68b0039cf"
+          }
+        },
+        {
+          "client_id": "1071319888527-kclch48ik942icq00ro3n4bu0rqabm77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vistareels.app",
+            "certificate_hash": "ca27ca1b01097576e6067abc2829e2329d1f2576"
+          }
+        },
+        {
+          "client_id": "1071319888527-le0vi9a0bef1338l7pflc2lqghvkv64b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vistareels.app",
+            "certificate_hash": "6598614b1d250d47f593f6ee9c3d115b1d7291a5"
+          }
+        },
+        {
+          "client_id": "1071319888527-ue8uvgqukl7n36arce40d4rlilbnsfv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vistareels.app",
+            "certificate_hash": "82d426460121d2ceb5a5f8c5cd0f2db38b8dc3f1"
+          }
+        },
+        {
+          "client_id": "1071319888527-pqb0djaponmlcp9najve184603i60cc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr2bf0BVmTshtaw2nWqdopFspQS-n8o4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071319888527-pqb0djaponmlcp9najve184603i60cc9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1071319888527-62kdhejjent9raao6sor224g4vm245s2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vistareels.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

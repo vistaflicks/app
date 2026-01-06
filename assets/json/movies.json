@@ -1,0 +1,417 @@
+{
+  "status": "success",
+  "message": "List of movies and series",
+  "data": [
+    {
+      "title": "The Shawshank Redemption",
+      "type": "movie",
+      "poster_url": "assets/images/M01.png",
+      "release_year": 1994,
+      "genre": [
+        "Drama"
+      ],
+      "director": "Frank Darabont",
+      "main_cast": [
+        "Tim Robbins",
+        "Morgan Freeman",
+        "Bob Gunton"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "title": "The Godfather",
+      "type": "movie",
+      "poster_url": "assets/images/M02.png",
+      "release_year": 1972,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "director": "Francis Ford Coppola",
+      "main_cast": [
+        "Marlon Brando",
+        "Al Pacino",
+        "James Caan"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "title": "The Dark Knight",
+      "type": "movie",
+      "poster_url": "assets/images/M03.png",
+      "release_year": 2008,
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "director": "Christopher Nolan",
+      "main_cast": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Aaron Eckhart"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "title": "Pulp Fiction",
+      "type": "movie",
+      "poster_url": "assets/images/M04.png",
+      "release_year": 1994,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "director": "Quentin Tarantino",
+      "main_cast": [
+        "John Travolta",
+        "Uma Thurman",
+        "Samuel L. Jackson"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "title": "Forrest Gump",
+      "type": "movie",
+      "poster_url": "assets/images/M05.png",
+      "release_year": 1994,
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "director": "Robert Zemeckis",
+      "main_cast": [
+        "Tom Hanks",
+        "Robin Wright",
+        "Gary Sinise"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "title": "Inception",
+      "type": "series",
+      "poster_url": "assets/images/M06.png",
+      "release_year": 2010,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "director": "Christopher Nolan",
+      "main_cast": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Elliot Page"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "title": "Inception",
+      "type": "series",
+      "poster_url": "assets/images/M07.png",
+      "release_year": 2010,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "director": "Christopher Nolan",
+      "main_cast": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Elliot Page"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "title": "Inception",
+      "type": "movie",
+      "poster_url": "assets/images/M08.png",
+      "release_year": 2010,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "director": "Christopher Nolan",
+      "main_cast": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Elliot Page"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "title": "Fight Club",
+      "type": "movie",
+      "poster_url": "assets/images/M09.png",
+      "release_year": 1999,
+      "genre": [
+        "Drama"
+      ],
+      "director": "David Fincher",
+      "main_cast": [
+        "Brad Pitt",
+        "Edward Norton",
+        "Helena Bonham Carter"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "title": "The Matrix",
+      "type": "movie",
+      "poster_url": "assets/images/M10.png",
+      "release_year": 1999,
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "main_cast": [
+        "Keanu Reeves",
+        "Laurence Fishburne",
+        "Carrie-Anne Moss"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "title": "Goodfellas",
+      "type": "movie",
+      "poster_url": "assets/images/M11.png",
+      "release_year": 1990,
+      "genre": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "director": "Martin Scorsese",
+      "main_cast": [
+        "Robert De Niro",
+        "Ray Liotta",
+        "Joe Pesci"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "type": "movie",
+      "poster_url": "assets/images/M12.png",
+      "release_year": 1991,
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "director": "Jonathan Demme",
+      "main_cast": [
+        "Jodie Foster",
+        "Anthony Hopkins",
+        "Lawrence A. Bonney"
+      ],
+      "createdAt": "2025-01-28T10:00:00Z",
+      "updatedAt": "2025-01-28T10:00:00Z"
+    },
+    {
+      "status": "success",
+      "message": "List of movies and series",
+      "data": [
+        {
+          "title": "The Shawshank Redemption",
+          "type": "movie",
+          "poster_url": "assets/images/M13.png",
+          "release_year": 1994,
+          "genre": [
+            "Drama"
+          ],
+          "director": "Frank Darabont",
+          "main_cast": [
+            "Tim Robbins",
+            "Morgan Freeman",
+            "Bob Gunton"
+          ],
+          "createdAt": "2025-01-28T10:00:00Z",
+          "updatedAt": "2025-01-28T10:00:00Z"
+        },
+        {
+          "title": "The Godfather",
+          "type": "movie",
+          "poster_url": "assets/images/M14.png",
+          "release_year": 1972,
+          "genre": [
+            "Crime",
+            "Drama"
+          ],
+          "director": "Francis Ford Coppola",
+          "main_cast": [
+            "Marlon Brando",
+            "Al Pacino",
+            "James Caan"
+          ],
+          "createdAt": "2025-01-28T10:00:00Z",
+          "updatedAt": "2025-01-28T10:00:00Z"
+        },
+        {
+          "title": "Breaking Bad",
+          "type": "series",
+          "poster_url": "assets/images/M15.png",
+          "release_year": 2008,
+          "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "director": "Vince Gilligan",
+          "main_cast": [
+            "Bryan Cranston",
+            "Aaron Paul",
+            "Anna Gunn"
+          ],
+          "createdAt": "2025-01-28T10:00:00Z",
+          "updatedAt": "2025-01-28T10:00:00Z"
+        },
+        {
+          "title": "The Dark Knight",
+          "type": "movie",
+          "poster_url": "assets/images/M16.png",
+          "release_year": 2008,
+          "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "director": "Christopher Nolan",
+          "main_cast": [
+            "Christian Bale",
+            "Heath Ledger",
+            "Aaron Eckhart"
+          ],
+          "createdAt": "2025-01-28T10:00:00Z",
+          "updatedAt": "2025-01-28T10:00:00Z"
+        },
+        {
+          "title": "Stranger Things",
+          "type": "series",
+          "poster_url": "assets/images/M17.png",
+          "release_year": 2016,
+          "genre": [
+            "Drama",
+            "Fantasy",
+            "Horror"
+          ],
+          "director": "The Duffer Brothers",
+          "main_cast": [
+            "Millie Bobby Brown",
+            "Finn Wolfhard",
+            "Winona Ryder"
+          ],
+          "createdAt": "2025-01-28T10:00:00Z",
+          "updatedAt": "2025-01-28T10:00:00Z"
+        },
+        {
+          "title": "Forrest Gump",
+          "type": "movie",
+          "poster_url": "assets/images/M18.png",
+          "release_year": 1994,
+          "genre": [
+            "Drama",
+            "Romance"
+          ],
+          "director": "Robert Zemeckis",
+          "main_cast": [
+            "Tom Hanks",
+            "Robin Wright",
+            "Gary Sinise"
+          ],
+          "createdAt": "2025-01-28T10:00:00Z",
+          "updatedAt": "2025-01-28T10:00:00Z"
+        },
+        {
+          "title": "Game of Thrones",
+          "type": "series",
+          "poster_url": "assets/images/M19.png",
+          "release_year": 2011,
+          "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+          ],
+          "director": "David Benioff, D.B. Weiss",
+          "main_cast": [
+            "Emilia Clarke",
+            "Kit Harington",
+            "Peter Dinklage"
+          ],
+          "createdAt": "2025-01-28T10:00:00Z",
+          "updatedAt": "2025-01-28T10:00:00Z"
+        },
+        {
+          "title": "The Matrix",
+          "type": "movie",
+          "poster_url": "assets/images/M20.png",
+          "release_year": 1999,
+          "genre": [
+            "Action",
+            "Sci-Fi"
+          ],
+          "director": "Lana Wachowski, Lilly Wachowski",
+          "main_cast": [
+            "Keanu Reeves",
+            "Laurence Fishburne",
+            "Carrie-Anne Moss"
+          ],
+          "createdAt": "2025-01-28T10:00:00Z",
+          "updatedAt": "2025-01-28T10:00:00Z"
+        },
+        {
+          "title": "The Witcher",
+          "type": "series",
+          "poster_url": "assets/images/M21.png",
+          "release_year": 2019,
+          "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+          ],
+          "director": "Lauren Schmidt Hissrich",
+          "main_cast": [
+            "Henry Cavill",
+            "Freya Allan",
+            "Anya Chalotra"
+          ],
+          "createdAt": "2025-01-28T10:00:00Z",
+          "updatedAt": "2025-01-28T10:00:00Z"
+        },
+        {
+          "title": "Goodfellas",
+          "type": "movie",
+          "poster_url": "assets/images/M21.png",
+          "release_year": 1990,
+          "genre": [
+            "Biography",
+            "Crime",
+            "Drama"
+          ],
+          "director": "Martin Scorsese",
+          "main_cast": [
+            "Robert De Niro",
+            "Ray Liotta",
+            "Joe Pesci"
+          ],
+          "createdAt": "2025-01-28T10:00:00Z",
+          "updatedAt": "2025-01-28T10:00:00Z"
+        }
+      ]
+    }
+  ]
+}

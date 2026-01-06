@@ -1,0 +1,16 @@
+Animation Controllers class to be defined here:
+
+1. Slide Left animation - when we want to move widget from left to right, we need to wrap our widget with SlideLeftTransition.
+    It will have parameters delay and duration, while child is required parameter
+
+2. Slide Right animation - when we want to move widget from right to left, we need to wrap our widget with SlideRightTransition.
+    It will have parameters delay and duration, while child is required parameter
+
+3. Slide Up animation - when we want to move widget from down to up, we need to wrap our widget with SlideUpTransition.
+    It will have parameters delay and duration, while child is required parameter
+
+4. Slide Down animation - when we want to move widget from up to down, we need to wrap our widget with SlideDownTransition.
+    It will have parameters delay and duration, while child is required parameter
+
+5. Slide horizontal animation - when we want to move widget horizontally, we need to wrap our widget with SlideLeftTransition.
+    It will have parameters delay and duration, while child is required parameter and isSlideRight(bool) is a required parameter.
